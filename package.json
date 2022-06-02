@@ -9,7 +9,7 @@
     "lint": "eslint . --ext .ts,.tsx,.mjs,.js,.jsx,.cjs ",
     "lint:fix": "eslint . --ext .ts,.tsx,.mjs,.js,.jsx,.cjs --fix",
     "build": "tsc",
-    "prebuild": "yarn lint:fix"
+    "prebuild": "yarn lint:fix && rimraf ./build && rimraf ./dist && rimraf ./lib"
   },
   "repository": {
     "type": "git",
@@ -43,6 +43,7 @@
     "eslint": "^8.16.0",
     "jest": "^28.1.0",
     "ngitignore": "^3.0.1",
+    "rimraf": "^3.0.2",
     "ts-node": "^10.8.0",
     "typescript": "^4.7.2"
   }
