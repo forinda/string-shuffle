@@ -14,3 +14,5 @@ function capitalize(text: string): string {
 export { capitalize };
 
 export default capitalize;
+
+export type CapitalizeType = typeof capitalize;

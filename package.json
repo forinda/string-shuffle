@@ -9,7 +9,7 @@
     "lint": "eslint . --ext .ts,.tsx,.mjs,.js,.jsx,.cjs ",
     "lint:fix": "eslint . --ext .ts,.tsx,.mjs,.js,.jsx,.cjs --fix",
     "build": "tsc",
-    "prebuild": "yarn lint:fix && rimraf ./build && rimraf ./dist && rimraf ./lib"
+    "prebuild": "rimraf ./build && rimraf ./dist && rimraf ./lib"
   },
   "repository": {
     "type": "git",
