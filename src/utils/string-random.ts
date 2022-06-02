@@ -28,5 +28,5 @@ function generateRandomString(numberOfCharacters: number) {
 
 
 export { generateRandomString };
-
+export type GenerateRandomStringType = typeof generateRandomString;
 export default generateRandomString;

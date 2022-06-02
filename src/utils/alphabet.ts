@@ -57,3 +57,13 @@ export const {
 export { alphabets };
 
 export default alphabets;
+
+export type LowerCaseLetterType = typeof lowerCaseLetters;
+export type UpperCaseLetterType = typeof upperCaseLetters;
+export type NumberType = typeof numbers;
+export type SymbolType = typeof symbols;
+export type AlphabetType = typeof alphabet;
+export type AlphabetTypeWithLowerCase = LowerCaseLetterType &
+	UpperCaseLetterType &
+	NumberType &
+	SymbolType;

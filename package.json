@@ -1,15 +1,15 @@
 {
   "name": "string-shuffle",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A JS module for shuffling strings and other helper methods like alhpabet generation",
-  "main": "index.js",
+  "main": "./build/index.js",
   "scripts": {
     "ignore": "yarn ngitignore create",
     "test": "jest --coverage -u",
     "lint": "eslint . --ext .ts,.tsx,.mjs,.js,.jsx,.cjs ",
     "lint:fix": "eslint . --ext .ts,.tsx,.mjs,.js,.jsx,.cjs --fix",
     "build": "tsc",
-    "prebuild": "yarn lint:fix && rimraf ./build && rimraf ./dist && rimraf ./lib"
+    "prebuild": "rimraf ./build && rimraf ./dist && rimraf ./lib"
   },
   "repository": {
     "type": "git",

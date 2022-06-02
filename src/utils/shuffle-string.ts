@@ -18,3 +18,4 @@ function shuffleString(word: string) {
 }
 
 export { shuffleString };
+export type ShuffleStringType = typeof shuffleString;
