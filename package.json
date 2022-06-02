@@ -1,0 +1,50 @@
+{
+  "name": "string-shuffle",
+  "version": "1.0.0",
+  "description": "A JS module for shuffling strings and other helper methods like alhpabet generation",
+  "main": "index.js",
+  "scripts": {
+    "ignore": "yarn ngitignore create",
+    "test": "jest --coverage -u",
+    "lint": "eslint . --ext .ts,.tsx,.mjs,.js,.jsx,.cjs ",
+    "lint:fix": "eslint . --ext .ts,.tsx,.mjs,.js,.jsx,.cjs --fix",
+    "build": "tsc",
+    "prebuild": "yarn lint:fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forinda/string-shuffle.git"
+  },
+  "keywords": [
+    "shuffle",
+    "shufflejs",
+    "alphabet",
+    "strings",
+    "random",
+    "math",
+    "lowercase",
+    "password"
+  ],
+  "author": "Felix Orinda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/forinda/string-shuffle/issues"
+  },
+  "homepage": "https://github.com/forinda/string-shuffle#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/preset-typescript": "^7.17.12",
+    "@types/jest": "^28.1.0",
+    "@types/node": "^17.0.38",
+    "@typescript-eslint/eslint-plugin": "^5.27.0",
+    "@typescript-eslint/parser": "^5.27.0",
+    "babel-jest": "^28.1.0",
+    "eslint": "^8.16.0",
+    "jest": "^28.1.0",
+    "ngitignore": "^3.0.1",
+    "ts-node": "^10.8.0",
+    "typescript": "^4.7.2"
+  }
+}
