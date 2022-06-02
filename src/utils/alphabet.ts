@@ -51,7 +51,9 @@ export const {
 	alphabet,
 	upperCaseLetters,
 	numbers,
-	symbols,
+	symbols
 } = alphabets();
+
+export { alphabets };
 
 export default alphabets;
