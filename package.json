@@ -1,6 +1,6 @@
 {
   "name": "string-shuffle",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "A JS module for shuffling strings and other helper methods like alhpabet generation",
   "main": "./build/index.js",
   "scripts": {
