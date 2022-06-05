@@ -17,6 +17,19 @@ console.log(shuffle.shuffleString("test123@shuffle.com")); // ecot@shmt.efs2l3fu
 console.log(shuffle.shuffleString("test123@shuffle.com")); // hsms3e@.2t1lcfotufe
 
 ```
+Other ways
+```ts
+import { shuffleString } from "string-shuffle";
+
+console.log(shuffleString("Hello World")); // lHlWero odl
+console.log(shuffleString("someRandomString")); // irdosaRenSomntgm
+console.log(shuffleString("1234IsAnAmazingString@#$%^&*()")); // m41n(I&aA@Sn^i3%)sgzgi#2*rn$At
+
+console.log(shuffleString("Hello World")); // lH oWlolrde
+console.log(shuffleString("someRandomString")); // nitRsgoaSmrdeomn
+console.log(shuffleString("1234IsAnAmazingString@#$%^&*()")); // t3nAnr@4Ii&n12gAgsa%m*(i$Sz)#^
+
+```
 Other included modules include
 
 |Module|Functionality|
