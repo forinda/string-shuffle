@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.symbols = exports.shuffleString = exports.upperCaseLetters = exports.lowerCaseLetters = exports.generateRandomString = exports.capitalize = exports.alphabets = void 0;
+exports.generateUnshuffledPassword = exports.generateShuffledPassword = exports.numbers = exports.symbols = exports.shuffleString = exports.upperCaseLetters = exports.lowerCaseLetters = exports.generateRandomString = exports.capitalize = exports.alphabets = void 0;
 const alphabet_1 = require("./alphabet");
 Object.defineProperty(exports, "alphabets", { enumerable: true, get: function () { return alphabet_1.alphabets; } });
 const capitalize_1 = require("./capitalize");
@@ -14,5 +14,10 @@ Object.defineProperty(exports, "shuffleString", { enumerable: true, get: functio
 const alphabet_3 = require("./alphabet");
 Object.defineProperty(exports, "symbols", { enumerable: true, get: function () { return alphabet_3.symbols; } });
 const alphabet_4 = require("./alphabet");
-Object.defineProperty(exports, "upperCaseLetters", { enumerable: true, get: function () { return alphabet_4.upperCaseLetters; } });
+Object.defineProperty(exports, "numbers", { enumerable: true, get: function () { return alphabet_4.numbers; } });
+const random_password_1 = require("./random-password");
+Object.defineProperty(exports, "generateShuffledPassword", { enumerable: true, get: function () { return random_password_1.generateShuffledPassword; } });
+Object.defineProperty(exports, "generateUnshuffledPassword", { enumerable: true, get: function () { return random_password_1.generateUnshuffledPassword; } });
+const alphabet_5 = require("./alphabet");
+Object.defineProperty(exports, "upperCaseLetters", { enumerable: true, get: function () { return alphabet_5.upperCaseLetters; } });
 //# sourceMappingURL=index.js.map

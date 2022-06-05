@@ -7,4 +7,3 @@ describe('Get random string', () => {
 	});
 });
 
-console.log(generateRandomString(10));

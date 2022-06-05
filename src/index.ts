@@ -10,7 +10,9 @@ export const {
 	shuffleString,
 	symbols,
 	upperCaseLetters,
-	numbers
+	numbers,
+	generateShuffledPassword,
+	generateUnshuffledPassword
 } = shuffle;
 
 export type AlphabetType = typeof alphabets;
@@ -21,4 +23,7 @@ export type NumberType = typeof numbers;
 export type SymbolType = typeof symbols;
 export type GenerateRandomstringType = typeof generateRandomString;
 export type ShuffleStringType = typeof shuffleString;
+export type GenerateUnshuffledPasswordType = typeof generateUnshuffledPassword;
+export type GenerateShuffledPasswordType = typeof generateShuffledPassword;
+
 
