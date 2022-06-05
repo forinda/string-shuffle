@@ -63,8 +63,7 @@ Still the modules can be imported from the main package
 - import { alphabets } from "string-shuffle";
 + import {lowerCaseLetters,numbers,symbols,upperCaseLetters} from "string-shuffle";
 
-- const { alphabet, lowerCaseLetters, numbers, symbols, upperCaseLetters } =
-  alphabets();
+- const { alphabet, lowerCaseLetters, numbers, symbols, upperCaseLetters } = alphabets();
 
 - console.log(alphabet.join("")); //ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!"#$%&'()*+,-./
 
