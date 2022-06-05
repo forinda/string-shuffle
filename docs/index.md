@@ -2,7 +2,7 @@
 
 A JS module for shuffling strings and other helper methods like alphabet generation
 
-A quick reference
+A quick reference guide
 ```ts
 import * as shuffle from "string-shuffle";
 
