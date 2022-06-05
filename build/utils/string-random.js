@@ -13,7 +13,6 @@ function generateRandomString(numberOfCharacters) {
         .concat(alphabet_1.symbols)
         .concat(alphabet_1.numbers);
     let randomString = '';
-    console.log('Alphabet', string);
     for (let i = 0; i < numberOfCharacters; i++) {
         const randomIndex = Math.floor(Math.random() * string.length);
         randomString += string[randomIndex];
