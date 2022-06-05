@@ -64,7 +64,6 @@ Still the modules can be imported from the main package
 + import {lowerCaseLetters,numbers,symbols,upperCaseLetters} from "string-shuffle";
 
 - const { alphabet, lowerCaseLetters, numbers, symbols, upperCaseLetters } = alphabets();
-
 - console.log(alphabet.join("")); //ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!"#$%&'()*+,-./
 
 console.log(lowerCaseLetters.join("")); //abcdefghijklmnopqrstuvwxyz
@@ -108,6 +107,7 @@ Disclaimer: Use this at your own risk. It's here for mock apps or just simple pr
 import { generateUnshuffledPassword } from "string-shuffle";
 
 console.log(generateUnshuffledPassword({})); // ey99
+
 console.log(generateUnshuffledPassword({ lower: 1, upper: 2, num: 3, symb: 4 })); // pRI.##*369
 
 console.log(generateUnshuffledPassword({ lower: 2, upper: 2, num: 2, symb: 2 })); // jmKE"+89
