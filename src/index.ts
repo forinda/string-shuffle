@@ -9,14 +9,15 @@ export const {
 	lowerCaseLetters,
 	shuffleString,
 	symbols,
-	upperCaseLetters
+	upperCaseLetters,
+	numbers
 } = shuffle;
 
 export type AlphabetType = typeof alphabets;
 export type CapitalizeType = typeof capitalize;
 export type LowerCaseLetterType = typeof lowerCaseLetters;
 export type UpperCaseLetterType = typeof upperCaseLetters;
-export type NumberType = typeof symbols;
+export type NumberType = typeof numbers;
 export type SymbolType = typeof symbols;
 export type GenerateRandomstringType = typeof generateRandomString;
 export type ShuffleStringType = typeof shuffleString;
