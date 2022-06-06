@@ -47,5 +47,8 @@
     "ts-node": "^10.8.0",
     "typescript": "^4.7.2"
   },
-  "types": "./build/index.d.ts"
+  "types": "./build/index.d.ts",
+  "dependencies": {
+    "tslib": "^2.4.0"
+  }
 }
