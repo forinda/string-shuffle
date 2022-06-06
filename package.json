@@ -1,6 +1,6 @@
 {
   "name": "string-shuffle",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "A JS module for shuffling strings and other helper methods like alhpabet generation",
   "main": "./build/index.js",
   "scripts": {
@@ -47,5 +47,8 @@
     "ts-node": "^10.8.0",
     "typescript": "^4.7.2"
   },
-  "types": "./build/index.d.ts"
+  "types": "./build/index.d.ts",
+  "dependencies": {
+    "tslib": "^2.4.0"
+  }
 }
